@@ -9,3 +9,6 @@ variable "subnets" {}
 variable "internal" {}
 variable "vpc_id" {}
 variable "allow_cidr" {}
+variable "port" {
+    default = 80
+}
