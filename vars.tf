@@ -6,3 +6,4 @@ variable "enable_deletion_protection" {
     default = false
 }
 variable "subnets" {}
+variable "internal" {}
