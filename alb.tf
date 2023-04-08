@@ -25,7 +25,7 @@ resource "aws_lb_listener" "main" {
 
     fixed_response {
       content_type = "text/html"
-      message_body = "<center><h1>503 - Not accessible</h1></center>"
+      message_body = "<h1>503 - Not accessible</h1>"
       status_code  = "503"
     }
   }
